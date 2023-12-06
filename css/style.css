@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "FS Lola";
+    src: url('http://localhost/muamalat-login/font/FS-Lola-Regular.ttf') format('truetype');
+}
+/* @import url(https://db.onlinewebfonts.com/c/3dd6e9888191722420f62dd54664bc94?family=MyriadPro-Regular); */
+
+*{
+    box-sizing: border-box; 
+    font-family: "Myriad Pro";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Myriad Pro', sans-serif; */
+} 
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.item-bottom {
+    font-family: "FS Lola";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    padding: 24px 80px;
+    gap: 89px;
+    background: var(--primary-white, #fff);
+    box-shadow: 0px 4px 14px 0px rgba(18, 18, 18, 0.12);
+}
+.logo img{
+    width: 198px;
+    height: 22px;
+}   
+.lang-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+   
+.id {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    background: #500878;
+    color: #ffffff;
+    border: none;
+    font-family: "FS Lola";
+    height: 43px;
+    width: 40px;
+}
+   
+.en {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background: #ffffff;
+    color: #500878;
+    font-family: "FS Lola";
+    font-weight: bold;
+    width: 40px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+   
+ul {
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    text-align: center;
+    color: #121212;
+}
+   
+.button-masuk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    background: #500878;
+    color: #ffffff;
+    display: flex;
+    border-radius: 2px;
+    width: 96px;
+   }
+.buttonn {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+
+.login-content{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 94px 80px 94px 80px;
+    padding-bottom: 0px;
+}
+.right-item{
+    width: 848px;
+    height: 610px;
+}
+#slider-container {
+    overflow: hidden;
+    position: relative;
+}
+#slider {
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    min-width: 100%;
+    position: relative;
+}
+.slide img {
+    width: 846px;
+    height: 447px;
+}
+.slider-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 52px;
+}
+.slider-buttons button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    transform: translateY(-50%);
+}
+.slider-buttons svg {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    background: var(--primary-indigo, #500878);
+}
+
+
+
+.left-item{
+    display: flex;
+    width: 416px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.div-text{
+    color: var(--primary-indigo, #500878);
+    align-self: stretch;
+}
+.txt-login1{
+    margin: 4px 0px 0px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.txt-login{
+    margin: 0px;
+    font-family: "FS Lola";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.lb-title{
+    color: var(--primary-indigo, #500878);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+button[type=submit]{
+    background: var(--primary-indigo, #500878);
+    display: flex;
+    width: 92px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    color: var(--primary-white, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+button[type=reset]{
+    display: flex;
+    padding: 12px 24px;
+    width: 92px;
+    height: 47px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid var(--primary-indigo, #500878);
+    background-color: white;
+    color: var(--primary-indigo, #500878);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.btn-form{
+    padding: 24px 0px 0px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    padding-top: 24px;
+}
+.div-user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    
+}
+.div-pass{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+input{
+    width: 416px;
+    display: flex;
+    height: 45px;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 2px;
+    border: 1px solid #969696;  
+}
+
+.first-txt span{
+    color: var(--primary-indigo, #500878);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.first-txt{
+    color: #7D7D7D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.twice-txt{
+    color: #7D7D7D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.third-txt{
+    color: var(--primary-indigo, #500878);                                        
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.arrow svg{
+    width: 24px;
+    height: 24px;
+}
+.div-text2{
+    padding: 24px 0px 24px;
+}
+.txt{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 14px;
+    align-self: stretch;
+}
+.contact svg{
+    border-radius: 2px;
+    background: var(--primary-indigo, #500878);
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 28px;
+    height: 28px;
+}
+.tel-dam{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+.txt2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    color: var(--primary-indigo, #500878);      
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error{
+    display: flex;
+    color: red;
+    font-family: "Poppins", sans-serif; 
+    align-items: center;
+}
